@@ -110,11 +110,11 @@ public class UserController {
   }
 
   /**
-   * Delete user map.
+   * Delete a user map.
    *
    * @param userId the user id
    * @return the map
-   * @throws Exception the exception
+   * @throws Exception the exception.
    */
   @DeleteMapping("/user/{id}")
   public Map<String, Boolean> deleteUser(@PathVariable(value = "id") Long userId) throws Exception {
